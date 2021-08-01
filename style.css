@@ -1,0 +1,19 @@
+section{
+    border: 2px solid red;
+}
+
+#menu-btn{
+    text-align: center;
+}
+
+li{
+    list-style-type: none;   
+    display: inline-block;
+    background-color: lightslategrey;
+    font-size: 20px;
+    color: white;
+    padding: 1px 8px;
+    border: orangered;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
