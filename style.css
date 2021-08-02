@@ -85,7 +85,7 @@ li{
     border: 2px solid purple;
     border-radius: 25px;
     margin: 40px;
-    padding-bottom: 100px; 
+    padding-bottom: 10%; 
 }
 
 .Recipies-tytle img{
@@ -96,6 +96,6 @@ li{
     width: 95%;
 }
 
-.Recipies-tytle h p{
-    /* padding: 50px; */
+#padding-right-left{
+    padding: 0 6%;
 }
