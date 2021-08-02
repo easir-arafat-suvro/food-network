@@ -30,10 +30,10 @@ li{
 .half-width{
     color: rgb(70, 70, 70);
     width: 50%;
-    height: auto;
+    /* height: auto; */
     padding: 50px 50px 10px 150px;
 
-    border: 2px solid violet;
+    /* border: 2px solid violet; */
 }
 
 .extra-padding{
@@ -54,7 +54,7 @@ li{
 
 .half-width img{
     width: 80%;
-    /* height: 100%; */ 
+    height: auto;
 }
 
 .banner-btn{
@@ -63,10 +63,6 @@ li{
     text-decoration: none;
     padding: 10px 15px;
     color: white;
-}
-
-.banner-background-top{
-    background-image: url(images/shapes/Frame\ 57.jpg);
 }
 
 .banner-background-mid{
