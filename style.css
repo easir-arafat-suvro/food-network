@@ -4,8 +4,9 @@ body{
 }
 
 #menubar-background{
-    background-color:rgb(51, 177, 255);
-    height: 40px;   
+    /* background-color:rgb(51, 177, 255); */
+    height: 40px;
+    background-image: linear-gradient(blueviolet, rgb(80, 11, 88)); 
 }
 
 #menu-btn{
@@ -30,7 +31,6 @@ li{
 .half-width{
     color: rgb(70, 70, 70);
     width: 50%;
-    /* height: auto; */
     padding: 50px 50px 10px 150px;
 
     /* border: 2px solid violet; */
