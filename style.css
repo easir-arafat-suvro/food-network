@@ -85,7 +85,7 @@ li{
     border: 2px solid purple;
     border-radius: 25px;
     margin: 40px;
-    padding-bottom: 10%; 
+    padding-bottom: 5%; 
 }
 
 .Recipies-tytle img{
@@ -98,4 +98,12 @@ li{
 
 #padding-right-left{
     padding: 0 6%;
+}
+
+.recipies-text{
+    padding: 10%;
+}
+
+.recipies-text p{
+    margin-bottom: 12%;
 }
