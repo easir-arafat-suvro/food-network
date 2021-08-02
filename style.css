@@ -32,6 +32,8 @@ li{
     width: 50%;
     height: auto;
     padding: 50px 50px 10px 150px;
+
+    border: 2px solid violet;
 }
 
 .extra-padding{
@@ -50,6 +52,11 @@ li{
     color: coral;
 }
 
+.half-width img{
+    width: 80%;
+    /* height: 100%; */ 
+}
+
 .banner-btn{
     background-image: linear-gradient(to right,coral, orange);
     border-radius: 50px;
@@ -58,6 +65,12 @@ li{
     color: white;
 }
 
-.banner-item{
+.banner-background-top{
     background-image: url(images/shapes/Frame\ 57.jpg);
+}
+
+.banner-background-mid{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
