@@ -1,10 +1,11 @@
 body{
     margin: 0px;
+    font-family: 'Poppins', sans-serif;
 }
 
-section{
+#menubar-background{
     background-color:rgb(51, 177, 255);
-    height: 20px;   
+    height: 40px;   
 }
 
 #menu-btn{
@@ -18,8 +19,45 @@ li{
     font-size: 20px;
     color: white;
     padding: 1px 8px;
-    border: orangered;
-    border-radius: 10px;
     text-transform: uppercase;
-    margin-top: 7px;
+    margin-top: 5px;
+}
+
+.banner-item{
+    display: flex;
+}
+
+.half-width{
+    color: rgb(70, 70, 70);
+    width: 50%;
+    height: auto;
+    padding: 50px 50px 10px 150px;
+}
+
+.extra-padding{
+    padding-top: 180px;
+}
+
+.extra-padding h1{
+    font-weight: 700;
+}
+
+.half-width{
+    font-size: 30px;
+}
+
+.half-width  span{
+    color: coral;
+}
+
+.banner-btn{
+    background-image: linear-gradient(to right,coral, orange);
+    border-radius: 50px;
+    text-decoration: none;
+    padding: 10px 15px;
+    color: white;
+}
+
+.banner-item{
+    background-image: url(images/shapes/Frame\ 57.jpg);
 }
