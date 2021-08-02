@@ -1,5 +1,6 @@
 body{
     margin: 0px;
+    background-color: whitesmoke;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -77,4 +78,24 @@ li{
 }
 .text-center-alignment h1{
     color: rgb(175, 27, 191);
+}
+
+.Recipies-tytle{
+    background-color: white;
+    border: 2px solid purple;
+    border-radius: 25px;
+    margin: 40px;
+    padding-bottom: 100px; 
+}
+
+.Recipies-tytle img{
+    display: block;
+    margin: auto;
+    padding-top: 3%;
+    padding-bottom: 10%;  
+    width: 95%;
+}
+
+.Recipies-tytle h p{
+    /* padding: 50px; */
 }
