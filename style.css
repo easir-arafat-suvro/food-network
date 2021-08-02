@@ -107,3 +107,16 @@ li{
 .recipies-text p{
     margin-bottom: 12%;
 }
+
+#subscriber h1{
+    display: inline-block;
+    padding: 0px 100px;
+}
+
+#subscriber{
+    text-align: center;
+    border: 2px solid violet;
+    border-radius: 20px;
+    margin: 0 20%;
+    
+}
